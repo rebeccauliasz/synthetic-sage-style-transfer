@@ -6,7 +6,7 @@ I found I didn't have the processing power to do this (it would have taken days)
 
 ![image of spell](https://github.com/rebeccauliasz/synthetic-sage-style-transfer/blob/master/doc/spell1.png)
 ![spell2](https://github.com/rebeccauliasz/synthetic-sage-style-transfer/blob/master/doc/spell2.png)
-![spell3](https://github.com/rebeccauliasz/synthetic-sage-style-transfer/blob/master/doc/spell3.png)!
+![spell3](https://github.com/rebeccauliasz/synthetic-sage-style-transfer/blob/master/doc/spell3.png)
 
 The model is trained on the COCO2014 largescale dataset and VGG19 optimizer function. 
 
