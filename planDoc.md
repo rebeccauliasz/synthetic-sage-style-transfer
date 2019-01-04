@@ -1,6 +1,6 @@
-Coding exam game plan
+<b>Coding exam game plan</b>
 
-1.	Convolution and curation
+<b>1.	Convolution and curation</b>
 
 I want to use this exam as a springboard into a larger research project on datasets. I am interested looking at datasets as generative archives that are curated based on social, economic, political etc factors through experimental use of said datasets in machine learning operations. I am specifically interested in Generative Adversarial Networks, or GANs, a type of neural network that uses two competing generative models in order to synthesize new “fake” images. This process uses noise, or random input in order to dynamically train a coupled generator model which in turn, feeds forward into a discriminator model, which decides whether an image is “real” or not. This process iterates in order to produce synthetic images that resemble the initial data that was fed into the GAN. In recent years, there have been a number of low level frameworks (pytorch, tensorflow, cycleGAN) that have been developed to implement GANs more easily in machine language. Common to these implementations is that they necessarily use a large scale database in order to compile the generator model for implementation in the GAN. Common large scale databases include MS-COCO, ImageNet, MobileNet, MNIST. It is also possible to create custom datasets which can then be compiled into models.
 
@@ -17,7 +17,7 @@ Image from GANGogh network (Jones and Bonafilia)
 
 I wonder what it might be like to train models based on alternative datasets of “nudes”? What types of images might come out of models based on datasets composed of nude art made by female artists? What about commercial photographic representations of female nudes? Pornographic databases of female nudes? I speculate that each of these spaces has a defined politics of representation that would manifest in the output “style” of the model that they would comprise.
 
-2.	Implementation
+<b>2.	Implementation</b>
 
 So far:
 I have thus far experimented (but not successfully) in creating GANs from prefabricated databases in tensorflow with python. I have hit limitations with this approach as I have not yet been able to compile a database into a model due to hardware constraints. I’ve successfully began to train a style transfer model based on the COCO dataset and a pornographic photo taken from google. After about 20 hours training on my GPU I aborted the program.
