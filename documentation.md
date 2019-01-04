@@ -8,6 +8,10 @@ I found I didn't have the processing power to do this (it would have taken days)
 ![spell3](https://github.com/rebeccauliasz/synthetic-sage-style-transfer/blob/master/doc/spell3.png)!
 
 2. After training the model in Spell, I took the ckpt files that were generated for use in tensorflow.py and converted them to use in tensorflow.js using [this repository](https://github.com/reiinakano/fast-style-transfer-deeplearnjs)
+
 ![ckpt](https://github.com/rebeccauliasz/synthetic-sage-style-transfer/blob/master/doc/ckpt.png)
 
-3. 
+3. The next step was to use this model in an p5.js sketch, which I did following the documentation on the ml5 website. All of the examples on the site use either webcam input or pre-loaded server-side files as input, so I needed to figure out how to apply the model to images that were scraped from the web. I created a test sketch to make sure the model was working properly, using webcam input 
+
+![webcam transfer](https://github.com/rebeccauliasz/synthetic-sage-style-transfer/blob/master/doc/vid-test1.png)
+![2](https://github.com/rebeccauliasz/synthetic-sage-style-transfer/blob/master/doc/vid-test2.png)
