@@ -19,4 +19,4 @@ To get around this:
 3. run index.html using python server: 
 
     python -m http.server
-4. If it still is giving CORS errors, try enabling Chrome flag: [treat insecure origin as secure](chrome://flags/#unsafely-treat-insecure-origin-as-secure) and add localhost as origin.
+4. If it still is giving CORS errors, try enabling Chrome flag "treat insecure origin as secure": chrome://flags/#unsafely-treat-insecure-origin-as-secure and add localhost as origin.
