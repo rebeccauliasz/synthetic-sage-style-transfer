@@ -1,6 +1,6 @@
 # synthetic-sage-style-transfer
 
-## instructions:
+## instructions for use:
 
 wait until style transfer model loads.
 press display button to reveal unstyled images (warning: porn).
