@@ -1,0 +1,21 @@
+/* p5.js json stuff
+
+function preload (){
+  flower = loadJSON("flower.json");
+}
+
+and then loading stuff from the json is asynchronous, it takes a minute
+you have to load the data first
+
+array inside of data - objects are indexed ..
+var bird = data.birds[1].members[2];
+createP(bird);
+
+looping though data ..
+for (var i = 0; i < birds.length ; i++){
+  createElement('h1', birds[i].family);
+  var members = birds[i].members;
+  for (var j = 0; j < members.length; j++){
+  createDiv(members[j]);
+  }
+}
