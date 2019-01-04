@@ -44,7 +44,7 @@
       .results {
         display: inline-block;
         width: 320px;
-        height: 240px;
+        height: 320px;
       }
     </style>
 
@@ -74,10 +74,11 @@
     <div id="buttons" class="w3-center">
       <div class="w3-card w3-center" style="padding: 5px; border: 5px;">
         <h3>instructions:</h3>
-        <p>wait until style transfer model loads.</br> press display to reveal unstyled images (warning: porn).</br> press transfer style to apply the style transfer.</br> this could take several minutes depending on network and processing speed.</br>(on my machine it takes about 45 seconds)</br></br>NOTE: make sure CORS is enabled in browser.</br> if CORS error persists try ...</p>
+        <p>wait until style transfer model loads.</br> press display to reveal unstyled images (warning: porn).</br> press transfer style to apply the style transfer.</br> this could take several minutes depending on network and processing speed.</br>(on my machine it takes about 45 seconds)</br></br>NOTE: make sure CORS is enabled in browser.</p>
       </div>
     </br>
       <button id="display" class="w3-btn w3-round-xlarge w3-border">display</button>
+      <button id="resetBtn" class="w3-btn w3-round-xlarge w3-border">reset</button>
       <button id="transferBtn" class="w3-btn w3-round-xlarge w3-border">transfer style</button>
     </div>
 
@@ -85,16 +86,18 @@
 
       <div id="canvasContainer" class="w3-center">
 
-        <div id='img0' class='results'></div>
-        <div id='img1' class='results'></div>
-        <div id='img2' class='results'></div>
-        <div id='img3' class='results'></div>
-        <div id='img4' class='results'></div>
-        <div id='img5' class='results'></div>
-        <div id='img6' class='results'></div>
-        <div id='img7' class='results'></div>
-        <div id='img8' class='results'></div>
-      <!--  <div id='img9' class='results'></div> -->
+        <div id='img0' class='results w3-hover-opacity'></div>
+        <div id='img1' class='results w3-hover-opacity'></div>
+        <div id='img2' class='results w3-hover-opacity'></div>
+        <div id='img3' class='results w3-hover-opacity'></div>
+        <div id='img4' class='results w3-hover-opacity'></div>
+        <div id='img5' class='results w3-hover-opacity'></div>
+        <div id='img6' class='results w3-hover-opacity'></div>
+        <div id='img7' class='results w3-hover-opacity'></div>
+        <div id='img8' class='results w3-hover-opacity'></div>
+        <div id='img9' class='results w3-hover-opacity'></div>
+        <div id='img10' class='results w3-hover-opacity'></div>
+        <div id='img11' class='results w3-hover-opacity'></div>
 
 
       </div>

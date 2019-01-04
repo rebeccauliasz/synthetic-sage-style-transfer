@@ -9,7 +9,7 @@ var subscriptionKey = '&subscription-Key=d3197b9c35224b65994698997126488c';
 
 var search = '&safesearch=off&q=nude';
 var images;
-let tempImg;
+//let tempImg;
 let imgArray = [];
 let img = [];
 
@@ -18,7 +18,7 @@ var h = (window.innerHeight);
 var index = 0;
 var xPos = 0;
 var yPos = 0;
-var indexMax = 9;
+var indexMax = 12;
 
 //ml5 stuff
 let style;
@@ -41,7 +41,7 @@ function loadImages(){
 
   for (var i=0; i<indexMax; i++){
     img[i] = createImg(images.value[i].contentUrl);
-    img[i].size(640, 480);
+    img[i].size(480, 480);
     img[i].hide();
   };
 
@@ -58,7 +58,7 @@ function setup() {
   // The results images from the style transfer, set up container images
   for (var i=0; i < indexMax; i++){
       resultImg[i] = createImg('').parent('img'+ i);
-      resultImg[i].size(320, 240);
+      resultImg[i].size(320, 320);
       //resultImg[i].hide;
     };
 
@@ -69,6 +69,10 @@ function setup() {
   var button3 = select('#display');
   button3.mousePressed(displayImages);
 
+  //reset
+  var resetBtn = select('#resetBtn')
+  resetBtn.mousePressed(resetImages);
+
   //apply model once loaded
   var transferBtn = select('#transferBtn');
   transferBtn.mousePressed(transferImages);
@@ -77,22 +81,17 @@ function setup() {
   style = ml5.styleTransfer('models/sage', modelLoaded);
 }
 
-//to display unprocessed imgs
-function displayImages(){
-  var results = document.getElementById("canvasContainer");
-  results.style.display='block';
+//reset (really just page refresh)
+function resetImages(){
+  location.reload();
 
-/*  for (var i=0; i < 4; i++){
-    //console.log(imgArray);
-    temp = image(imgArray[i], 50, 50, 50, 50);
-    console.log(temp);
-    //tempImg.show();
-  }*/
 }
 
-
-//not needed
-function draw() {
+//to display unprocessed imgs
+function displayImages(){
+  for (var i=0; i < indexMax; i++){
+    img[i].show();
+  }
 }
 
 
@@ -149,10 +148,18 @@ function transferImages() {
   style.transfer(img[8], function(err, img) {
     resultImg[8].attribute('src', img.src);
   //  resultImg[4].show();
-});/*
+});
   style.transfer(img[9], function(err, img) {
     resultImg[9].attribute('src', img.src);
   //  resultImg[4].show();
-}); */
-  select('#status').html('done!?!?');
+});
+  style.transfer(img[10], function(err, img) {
+    resultImg[10].attribute('src', img.src);
+//  resultImg[4].show();
+});
+  style.transfer(img[11], function(err, img) {
+    resultImg[11].attribute('src', img.src);
+//  resultImg[4].show();
+});
+  select('#status').html('porn generated');
 }
