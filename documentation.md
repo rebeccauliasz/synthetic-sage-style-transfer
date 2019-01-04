@@ -15,3 +15,15 @@ I found I didn't have the processing power to do this (it would have taken days)
 
 ![webcam transfer](https://github.com/rebeccauliasz/synthetic-sage-style-transfer/blob/master/doc/vid-test1.png)
 ![2](https://github.com/rebeccauliasz/synthetic-sage-style-transfer/blob/master/doc/vid-test2.png)
+
+4. I configured the Bing API to directly query image search results from my sketch. I scraped the JSON in order to acquire the top 12 results for the search "nude" (safe search off). 
+
+![puppies](https://github.com/rebeccauliasz/synthetic-sage-style-transfer/blob/master/doc/bing-json.png)
+
+5. Parsing the JSON is difficult, becuase of the way that p5.js renders p5.images. I thought I would have to write something to temp download images and refer to the local files, but I eventually got it to work by using the createImg() in a series of callback function. This doesn't work if CORS is enabled and security features are temporarily disabled. 
+
+6. I first generated a lot of pixel distortion, but eventually figured out the model was looking for a very specific size and scale of input and reference images. 
+
+![cats](https://github.com/rebeccauliasz/synthetic-sage-style-transfer/blob/master/doc/render-errors.png)
+images with distortion
+![cats2](https://github.com/rebeccauliasz/synthetic-sage-style-transfer/blob/master/doc/GPU-error2.png)
