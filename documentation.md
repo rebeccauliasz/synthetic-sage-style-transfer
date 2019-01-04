@@ -27,6 +27,14 @@ The model is trained on the COCO2014 largescale dataset and VGG19 optimizer func
 
 6. I first generated a lot of pixel distortion, but eventually figured out the model was looking for a very specific size and scale of input and reference images. 
 
-![cats](https://github.com/rebeccauliasz/synthetic-sage-style-transfer/blob/master/doc/render-errors.png)
 images with distortion
+
+![cats](https://github.com/rebeccauliasz/synthetic-sage-style-transfer/blob/master/doc/render-errors.png)
+
 ![cats2](https://github.com/rebeccauliasz/synthetic-sage-style-transfer/blob/master/doc/GPU-error2.png)
+
+images correctly scaled and processed 
+
+![nudes](https://github.com/rebeccauliasz/synthetic-sage-style-transfer/blob/master/doc/nude.png)
+![cats](https://github.com/rebeccauliasz/synthetic-sage-style-transfer/blob/master/doc/cat2.png)
+
