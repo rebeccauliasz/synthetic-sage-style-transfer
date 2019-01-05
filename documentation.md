@@ -38,12 +38,19 @@ images correctly scaled and processed
 ![nudes](https://github.com/rebeccauliasz/synthetic-sage-style-transfer/blob/master/doc/nude.png)
 ![cats](https://github.com/rebeccauliasz/synthetic-sage-style-transfer/blob/master/doc/cat2.png)
 
+
+
+
 ## next steps 
 
-1. Implement it in client. Right now, I am getting several uncaught js errors that have to be resolved. 
+
+1. Implement it in client. Right now, I am getting several uncaught js errors that have to be resolved. [See here](http://www.rebeccauliasz.com/synthetic-sage/) 
 
 
-![errors](https://github.com/rebeccauliasz/synthetic-sage-style-transfer/blob/master/doc/client-errors.png)
+![errors](https://github.com/rebeccauliasz/synthetic-sage-style-transfer/blob/master/doc/client-errors.png) 
+
+
+
 
 2. Implement similar idea with GAN. This will require more computational power than I have right now
 
