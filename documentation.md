@@ -1,5 +1,7 @@
 To implement the style transfer I took the follow steps/ used the following resources: 
 
+[Resource/ idea board for this project](https://www.are.na/rebecca-uliasz/ml-proj)
+
 1. First, I followed the ml5 documentation for training a style transfer model in tensorflow, found [here](https://github.com/ml5js/training-styletransfer)
 
 I found I didn't have the processing power to do this (it would have taken days), so I followed [this](https://www.youtube.com/watch?v=gye9hSIrRWI) tutorial by Yining Shi in order to train a model using a virtual machine (Spell). This process took a few hours (first, to create the environment and dataset on Spell, next to train the dataset on an image to produce a style model). 
