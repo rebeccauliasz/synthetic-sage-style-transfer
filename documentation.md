@@ -1,6 +1,6 @@
 To implement the style transfer I took the follow steps/ used the following resources: 
 
-[Resource/ idea board for this project](https://www.are.na/rebecca-uliasz/ml-proj)
+[Resource/ idea board for this project](https://www.are.na/rebecca-uliasz/synthetic-sage-work-board)
 
 1. First, I followed the ml5 documentation for training a style transfer model in tensorflow, found [here](https://github.com/ml5js/training-styletransfer)
 
