@@ -1,5 +1,7 @@
 # SAGE pin-up 
 
+![](https://cdn.theatlantic.com/static/mt/assets/science/assets_c/2013/01/sage_pinup-thumb-615x500-111521.jpg)
+
   In 1956, the first ever human likeness appeared on the interface of an IBM SAGE (Semi-Automatic Ground Environment) in the form of an anonymously created pin up girl. The SAGE project, a collaborative initiative of the US Air Force and engineers at IBM and MIT, was an massive scale defense project that consisted of massive AN/FSQ-7, each half an acre large, directed towards real time flight monitoring and detection of nuclear threat via cathode displays. The pin-up, based on a drawing by Esquire artist George Petty, was anonymously programmed into the system using Hollerith punch cards. Explains Lawrence Tipton in an interview with [The Atlantic](https://www.theatlantic.com/technology/archive/2013/01/the-never-before-told-story-of-the-worlds-first-computer-art-its-a-sexy-dame/267439/): 
   
 
