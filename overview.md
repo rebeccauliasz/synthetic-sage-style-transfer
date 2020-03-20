@@ -9,6 +9,7 @@ Two switching consoles on site were used to handle this process. After running t
 
 When loaded, the pin-up image would be visible in flashing pulses that synchronized system-wide with the incoming flow of real-time radar data. A long exposure on Tipton's Polaroid camera would have assured the steady image of the pin-up you see here. (The pin-up lady has a spot on her thigh because that is the center of the circular display, which is where the electron gun in the CRT naturally aims when it is idle.)" 
 
+![https://github.com/rebeccauliasz/synthetic-sage-style-transfer/blob/master/images/sage_petty.jpg]
 
   The SAGE pin up is an interesting case in point for the entwined histories of gender and computer programming, a field that historically and to this day has been dominated by white men. There is, of course, a historical lineage of the female nude that can be traced through the cannon of Western modern art, but there is another history of gender that can be traced through the development of the digital image. This history is notably punctured with a number of "firsts" marked by the female body, including but not limited to the SAGE pinup and the first ever google image search, the iconic photo of J Lo's 2000 Grammy Award dress...
 
