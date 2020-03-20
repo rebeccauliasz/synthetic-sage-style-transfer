@@ -32,7 +32,7 @@ When loaded, the pin-up image would be visible in flashing pulses that synchroni
   For this instantiation, I trained a GAN to process images in the style derived from the Petty-SAGE pin up. I created a site to scrape pornographic nudes from Google based on a key term search, which I then processed through the GAN to rerender in real time. The site is no longer functioning, but here is some documentation: 
   
   ### Website
-  ![]()
+  ![](https://github.com/rebeccauliasz/synthetic-sage-style-transfer/blob/master/doc/Screen%20Shot%202020-03-19%20at%202.53.36%20PM.png)
   ### Output Images
   ![output images](https://github.com/rebeccauliasz/synthetic-sage-style-transfer/blob/master/doc/nude.png)
   
