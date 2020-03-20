@@ -35,4 +35,7 @@ When loaded, the pin-up image would be visible in flashing pulses that synchroni
   ![](https://github.com/rebeccauliasz/synthetic-sage-style-transfer/blob/master/doc/Screen%20Shot%202020-03-19%20at%202.53.36%20PM.png)
   ### Output Images
   ![output images](https://github.com/rebeccauliasz/synthetic-sage-style-transfer/blob/master/doc/nude.png)
+  ![](https://github.com/rebeccauliasz/synthetic-sage-style-transfer/blob/master/doc/synthsage1.gif)
+  ![](https://github.com/rebeccauliasz/synthetic-sage-style-transfer/blob/master/doc/synthsage2.gif)
+  ![](https://github.com/rebeccauliasz/synthetic-sage-style-transfer/blob/master/doc/synthsage3.gif)
   
